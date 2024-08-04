@@ -21,8 +21,8 @@ h1,h2
 .personal_face
 {
     position: absolute;
-    top:20px;
-    left:620px;
+    top:45px;
+    left:730px;
 }
 /*貓咪*/
 
@@ -42,9 +42,7 @@ li
 
 /*navigation bar*/
 .navbar
-{
-    position:sticky;
-    top:0px;   
+{   
     width:100%;
     box-sizing: border-box;
     display:inline-block;
@@ -54,6 +52,8 @@ li
 
 .navbar a
 {
+    position:sticky;
+    top:0px;   
     text-decoration: none;
     color:rgb(255, 255, 255);
     text-align: center;
@@ -71,6 +71,7 @@ li
     color:lightblue;
 }
 /*navigation bar*/
+
 
 
 /*連結按鈕*/
@@ -111,6 +112,13 @@ li
     left:850px;
     top:1100px;
 }
+
+.dc_button
+{
+    position:absolute;
+    left:870px;
+    top:1460px;
+}
 /*連結按鈕*/
 
 
@@ -135,5 +143,11 @@ li
 {
     left:437px;
     top:1000px;
+}
+
+.dc
+{
+    left:480px;
+    top:1400px;
 }
 /*程式logo圖片*/
